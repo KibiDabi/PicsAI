@@ -4,7 +4,7 @@ export const surpriseMePrompts = [
     'teddy bears shopping for groceries in Japan, ukiyo-e',
     'an oil painting by Matisse of a humanoid robot playing chess',
     'panda mad scientist mixing sparkling chemicals, digital art',
-    "a macro 35mm photograph of two mice in Hawaii, they're each wearing tiny swimsuits and are carrying tiny surf boards, digital art",
+    "A macro 35mm photograph of two mice in Hawaii, they're each wearing tiny swimsuits and are carrying tiny surf boards, digital art",
     '3D render of a cute tropical fish in an aquarium on a dark blue background, digital art',
     'an astronaut lounging in a tropical resort in space, vaporwave',
     'an oil painting portrait of a capybara wearing medieval royal robes and an ornate crown on a dark background',
