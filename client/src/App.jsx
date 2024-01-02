@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/PicsAI">
       {" "}
       <header className="w-full flex justify-between items-center bg-gradient-to-r from-yellow-600 to-red-600 sm:px-8 px-4 py-4 ">
         <Link
@@ -15,16 +15,16 @@ const App = () => {
           className="text-black text-xl font-medium flex flex-row flex-nowrap items-center justify-center gap-x-1.5 pr-1.5 leading-none rounded-lg"
         >
           <svg
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns="https://www.w3.org/2000/svg"
             width="24"
             height="24"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-image"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="lucide lucide-image"
           >
             <rect width="18" height="20" x="3" y="3" rx="2" ry="2" />
             <circle cx="9" cy="9" r="2" />
