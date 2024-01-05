@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const App = () => {
   return (
-    <Router basename="/PicsAI">
+    <Router basename="/PicsAI/">
       {" "}
       <header className="w-full flex justify-between items-center bg-gradient-to-r from-yellow-600 to-red-600 sm:px-8 px-4 py-4 ">
         <Link
