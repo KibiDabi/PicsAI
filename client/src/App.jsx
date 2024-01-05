@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Link, Route, Routes } from "react-router-dom";
 
 import { logo } from "./assets";
 import { Home, CreatePost } from "./pages";
@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const App = () => {
   return (
-    <Router basename="/PicsAI/">
+    <Router >
       {" "}
       <header className="w-full flex justify-between items-center bg-gradient-to-r from-yellow-600 to-red-600 sm:px-8 px-4 py-4 ">
         <Link
@@ -50,7 +50,7 @@ const App = () => {
       </header>{" "}
       <main className="sm:p-8 px-4 py-8 w-full bg-gradient-to-r from-yellow-600 to-red-600 min-h-[calc(100vh-73px)]">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/*" element={<Home />} />
           <Route path="/create-post" element={<CreatePost />} />
         </Routes>
       </main>
